@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-js-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgeniyStoyan/goit-node-js-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Evgeniy Stoyan <jekson@mail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgeniyStoyan/goit-node-js-hw-01/issues"
+  },
+  "homepage": "https://github.com/EvgeniyStoyan/goit-node-js-hw-01#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "crypto-js": "^4.1.1",
+    "nodemon": "^2.0.14",
+    "uuid": "^8.3.2"
+  }
+}
