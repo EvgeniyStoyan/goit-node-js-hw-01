@@ -1,11 +1,17 @@
 const { Command } = require("commander");
 const chalk = require("chalk");
-const {
-  listContacts,
-  addContact,
-  getContactById,
-  removeContact,
-} = require("./contacts");
+// const {
+//   listContacts,
+//   addContact,
+//   getContactById,
+//   removeContact,
+// } = require("./contacts");
+
+const listContacts = require("./controllers/contacts/ListContacts");
+const addContact = require("./controllers/contacts/addContact.js");
+const getContactById = require("./controllers/contacts/getByIdContact");
+const removeContact = require("./controllers/contacts/removeContact");
+
 const program = new Command();
 program
   .requiredOption("-a, --action <type>", "choose action")
